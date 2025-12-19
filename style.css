@@ -115,4 +115,28 @@ section {
     padding: 18px;
   }
 }
+.theme-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+  margin-left: 15px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+.dark-mode section {
+  background-color: #0f172a;
+}
+
+.dark-mode .project-card,
+.dark-mode .skills li {
+  background-color: #1e293b;
+  color: white;
+}
 
